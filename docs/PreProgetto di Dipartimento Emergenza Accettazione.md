@@ -101,11 +101,93 @@ Stanza piccola dei materiali di ricambio per letti, camici e igiene.
 Bagno maschile e femminile dedicato a pazienti e medici non accessibile da parte del publico
 
 
+
+#Oggetti Renderizzati
+
+### Carrello Di Terapia
+![immagine 1](5.jpg)
+
+### Flebo
+
+![immagine 2](13.jpg)
+
+
+### Separè
+
+![immagine 3](Schermata3.png)
+
+### Ecografo
+
+![immagine 4](6.jpg)
+
+
+### Macchina Per Tomografia Assiale Computerizzata (TAC)
+
+![immagine 5](9.jpg)
+
+### Letto
+
+![immagine 6](16.jpg)
+
+#### Lettino da visita
+
+![immagine 7](2pg.png)
+
+
+### Sedia da scrivania
+
+![immagine 8](4.jpg)
+
+### SchermoLCD
+
+![immagine 9](10.jpg)
+
+### Lavabo
+
+![immagine 10](Schermata10.png)
+
+### Sanitario
+
+![immagine 11](18.jpg)
+
+### Sedie per accoglienza
+
+![immagine 12](3.jpg)
+
+### Porta di Sicurezza Ospedale
+
+![immagine 13](7.jpg)
+
+### Scrivania
+
+![immagine 14](11.jpg)
+
+
+### Scaffale
+
+![immagine 15](Schermata15.png)
+
+### Armadietto Per Medicinali
+
+![immagine 16](15.jpg)
+
+### Sedia A Rotelle
+
+![immagine 17](12.jpg)
+
+### Orologio
+
+![immagine 18](17.jpg)
+
+### Lavatrice
+
+![immagine 19](8.jpg)
+
 #Alcuni progetti di Pronto Soccorso
 Di seguito sono riportati dei materiali reperiti in rete di progetti di pronto soccorso.
 
 1.
-![Peogetto 1](http://www.rochestergeneral.org/~/media/Images/Manually%20Migrated/ed_rendering_3302011_full.JPG)
+![Progetto 1](http://www.rochestergeneral.org/~/media/Images/Manually%20Migrated/ed_rendering_3302011_full.JPG)
 
 Preso dal sito: <http://www.rochestergeneral.org/>
 

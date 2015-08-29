@@ -1,0 +1,238 @@
+
+              
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [4.5, 9.5, 0.25],
+                         "rVector": [90, 0, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [7.5, 9.5, 0.25],
+                         "rVector": [90, 0, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [4.5, 7, 0.25],
+                         "rVector": [90, 0, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [7.5, 7, 0.25],
+                         "rVector": [90, 0, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [4.5, 7.5, 0.25],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [7.5, 7.5, 0.25],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [4.5, 4, 0.25],
+                         "rVector": [90, 0, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [7.5, 4, 0.25],
+                         "rVector": [90, 0, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [4.5, 4.5, 0.25],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "SediaAccoglienzaDispari",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaAccoglienzaDispari",
+                         "tVector": [7.5, 4.5, 0.25],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Orologio",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "Orologio",
+                         "tVector": [6, 9.8, 2.2],
+                         "rVector": [0, -90, 180]
+                     }
+              },
+
+              {       
+                     "id": "SchermoLCD",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SchermoLCD",
+                         "tVector": [7.5, 9.8, 3],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "SchermoLCD",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SchermoLCD",
+                         "tVector": [4.5, 9.8, 3],
+                         "rVector": [90, 180, 0]
+                     }
+              }, 
+              {       
+                     "id": "SediaARotelle",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "areaVisita",
+                         "class": "SediaARotelle",
+                         "tVector": [2, 2, 0.3],
+                         "rVector": [75, 0, 45]
+                     }
+              }

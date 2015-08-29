@@ -1,0 +1,443 @@
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [2.5, 1.5, 0.10],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+                  {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [5.5, 1.5, 0.10],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+                  {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [8.5, 1.5, 0.10],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+                  {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [11.5, 1.5, 0.10],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [1.5, 5.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [1.5, 8.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [1.5, 11.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [1.5, 14.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [1.5, 17.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [6.5, 5.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [6.5, 8.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [6.5, 11.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [6.5, 14.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [6.5, 17.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [11.5, 5.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [11.5, 8.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "Letto",
+                         "tVector": [11.5, 11.5, 0.1],
+                         "rVector": [90, 180, 0]
+                     }
+              },
+
+              {       
+                     "id": "CarrelloDiTerapia",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "CarrelloDiTerapia",
+                         "tVector": [3.5, 15, 0.1],
+                         "rVector": [180, 180, 160]
+                     }
+              },
+
+              {       
+                     "id": "CarrelloDiTerapia",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "CarrelloDiTerapia",
+                         "tVector": [4.5, 7, 0.1],
+                         "rVector": [180, 180, 90]
+                     }
+              },
+
+              {       
+                     "id": "CarrelloDiTerapia",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OBI",
+                         "class": "CarrelloDiTerapia",
+                         "tVector": [8.5, 4, 0.1],
+                         "rVector": [180, 180, -30]
+                     }
+              },
+
+
+
+
+              
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OT",
+                         "class": "Letto",
+                         "tVector": [2, 1.5, 0.1],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OT",
+                         "class": "Letto",
+                         "tVector": [5, 1.5, 0.1],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OT",
+                         "class": "Letto",
+                         "tVector": [8, 1.5, 0.1],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OT",
+                         "class": "Letto",
+                         "tVector": [11, 1.5, 0.1],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OT",
+                         "class": "Letto",
+                         "tVector": [14, 1.5, 0.1],
+                         "rVector": [90, 270, 0]
+                     }
+              },
+
+              {       
+                     "id": "Letto",
+                     "type": "Feature",
+                     "geometry": 
+                     {
+                         "type": "Point",
+                         "coordinates": [0, 0]
+                     },
+                     "properties": 
+                     {
+                         "parent": "OT",
+                         "class": "Letto",
+                         "tVector": [17, 1.5, 0.1],
+                         "rVector": [90, 270, 0]
+                     }
+              }, 

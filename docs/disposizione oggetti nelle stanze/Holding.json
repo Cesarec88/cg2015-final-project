@@ -1,0 +1,329 @@
+
+    {       
+           "id": "Letto",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Letto",
+               "tVector": [2, 1.8, 0.1],
+               "rVector": [90, -90, 0]
+           }
+    }, 
+    {       
+           "id": "Letto",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Letto",
+               "tVector": [7, 1.8, 0.1],
+               "rVector": [90, -90, 0]
+           }
+    }, 
+    {       
+           "id": "Separe",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Separe",
+               "tVector": [4.7, 2, 1.2],
+               "rVector": [90, 90, 0]
+           }
+    }, 
+    {       
+           "id": "CarrelloDiTerapia",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "CarrelloDiTerapia",
+               "tVector": [1.3, 4, 0],
+               "rVector": [0, 0, 55]
+           }
+    }, 
+    {       
+           "id": "CarrelloDiTerapia",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0] 
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "CarrelloDiTerapia",
+               "tVector": [6.4, 4.1, 0],
+               "rVector": [0, 0, 120]
+           }
+    },   
+    {       
+           "id": "Letto",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Letto",
+               "tVector": [2, 11.3, 0.1],
+               "rVector": [90, 90, 0]
+           }
+    },
+    {       
+           "id": "Letto",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Letto",
+               "tVector": [6, 11.3, 0.1],
+               "rVector": [90, 90, 0]
+           }
+    },
+    {       
+           "id": "Letto",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Letto",
+               "tVector": [10, 11.3, 0.1],
+               "rVector": [90, 90, 0]
+           }
+    }, 
+    {       
+           "id": "Separe",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Separe",
+               "tVector": [3.7, 11, 1.2],
+               "rVector": [90, -90, 0]
+           }
+    }, 
+    {       
+           "id": "Separe",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Separe",
+               "tVector": [7.7, 11, 1.2],
+               "rVector": [90, -90, 0]
+           }
+    }, 
+    {       
+           "id": "Separe",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Separe",
+               "tVector": [11.7, 11, 1.2],
+               "rVector": [90, -90, 0]
+           }
+    },
+
+    {       
+           "id": "Scaffale",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Scaffale",
+               "tVector": [0.8, 6.6, 1.2],
+               "rVector": [90, 90, 0]
+           }
+    },
+
+    {       
+           "id": "CarrelloDiTerapia",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "CarrelloDiTerapia",
+               "tVector": [2, 9.5, 0],
+               "rVector": [0, 0, 0]
+           }
+    },
+
+    {       
+           "id": "CarrelloDiTerapia",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "CarrelloDiTerapia",
+               "tVector": [5.9, 9.2, 0],
+               "rVector": [0, 0, 45]
+           }
+    },
+
+    {       
+           "id": "CarrelloDiTerapia",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "CarrelloDiTerapia",
+               "tVector": [10, 8.6, 0],
+               "rVector": [0, 0, 85]
+           }
+    }, 
+    {       
+           "id": "SurveillanceCamera",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "SurveillanceCamera",
+               "tVector": [0.3, 0.3, 3],
+               "rVector": [90, 0, -25]
+           }
+    }, 
+    {       
+           "id": "SurveillanceCamera",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "SurveillanceCamera",
+               "tVector": [11.3, 12.9, 3],
+               "rVector": [0, 0, 180]
+           }
+    }, 
+    {       
+           "id": "Flebo",
+           "type": "Feature",
+           "geometry": 
+           {
+               "type": "Point",
+               "coordinates": [0, 0]
+           },
+           "properties": 
+           {
+               "parent": "Holding",
+               "class": "Flebo",
+               "tVector": [5, 12, 0.45],
+               "rVector": [90, 0, 0]
+           }
+    },
+
+ {       
+        "id": "Scrivania",
+        "type": "Feature",
+        "geometry": 
+        {
+            "type": "Point",
+            "coordinates": [0, 0]
+        },
+        "properties": 
+        {
+            "parent": "guardiolaHolding",
+            "class": "Scrivania",
+            "tVector": [1.6, 0.6, 0.45],
+            "rVector": [90, 180, 0]
+        }
+ } ,
+
+ {       
+        "id": "SediaScrivania",
+        "type": "Feature",
+        "geometry": 
+        {
+            "type": "Point",
+            "coordinates": [0, 0]
+        },
+        "properties": 
+        {
+            "parent": "guardiolaHolding",
+            "class": "SediaScrivania",
+            "tVector": [1.4, 2, 0.3],
+            "rVector": [90, 0, 0]
+        }
+ }
+ 
+
