@@ -104,7 +104,7 @@ Bagno maschile e femminile dedicato a pazienti e medici non accessibile da parte
 
 #Oggetti Renderizzati
 
-### Carrello Di Terapia
+### Carrello di terapia
 ![immagine 1](5.jpg)
 
 ### Flebo
@@ -121,7 +121,7 @@ Bagno maschile e femminile dedicato a pazienti e medici non accessibile da parte
 ![immagine 4](6.jpg)
 
 
-### Macchina Per Tomografia Assiale Computerizzata (TAC)
+### Macchina per Tomografia Assiale Computerizzata (TAC)
 
 ![immagine 5](9.jpg)
 
@@ -154,7 +154,7 @@ Bagno maschile e femminile dedicato a pazienti e medici non accessibile da parte
 
 ![immagine 12](3.jpg)
 
-### Porta di Sicurezza Ospedale
+### Porta di sicurezza
 
 ![immagine 13](7.jpg)
 
@@ -167,11 +167,11 @@ Bagno maschile e femminile dedicato a pazienti e medici non accessibile da parte
 
 ![immagine 15](Schermata15.png)
 
-### Armadietto Per Medicinali
+### Armadietto per medicinali
 
 ![immagine 16](15.jpg)
 
-### Sedia A Rotelle
+### Sedia a rotelle
 
 ![immagine 17](12.jpg)
 
