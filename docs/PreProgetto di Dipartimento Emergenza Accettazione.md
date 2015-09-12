@@ -84,8 +84,7 @@ Area dedita al trattamento ambulatoriale, controlli , per persone che non necess
 
 
 ###Area Radiologica di PS
-Area di Radiologia tradizionale dotata di due stanze una per il personale medico con la stazione di controllo e l'altra per i pazienti, avente i macchinari per eseguire Ecografie e TAC multislide appositamente dedicate.
-La prima stanza possiede una scrivania, sedie, computer e cloche di comando dei macchinari . La seconda stanza macchina per ecografie e tubo ragiogeno.
+Area di Radiologia tradizionale dotata dei macchinari necessari per eseguire Ecografie e TAC multislide appositamente dedicate.
 
 ###Farmacia (sinistra subito dopo la seconda sala di attesa )
 Stanza medio/piccola dotata di mensole cariche di farmaci di varia necessità.
@@ -98,7 +97,16 @@ In altre parole magazzino con presidi prettamente medici.
 Stanza piccola dei materiali di ricambio per letti, camici e igiene.
 
 ###Bagno interno
-Bagno maschile e femminile dedicato a pazienti e medici non accessibile da parte del publico
+Bagno maschile e femminile dedicato a pazienti e medici non accessibile da parte del publico.
+
+###Il mio progetto
+Questo è la pianta del progetto senza la suddivisione delle stanze:
+![pianta](progettoVuoto.jpg)
+
+Nella suddivisione delle stanze si è cercato di ottenere una struttura che permetta il raggiungimento delle aree di necessità da parte del personale medico e da parte dei pazienti per qualsiasi livello di emergenza. La struttura è dotata anche  di aree di Servizio per il posizionamento del materiale tecnico ospedaliero nei momenti in cui l'uso non ne sia richiesto, una area di Lavanderia per ovviare alla ricorrente necessità di capi puliti all'intenro del reparto a prescindere del sistema di pulizia del bucato ospedaliero. Una area Farmacia è stata inserita per permettere alla struttura di fornirsi dei medicamenti necessari. Le altre aree sono state inserite seguendo i principi costruttivi espressi precedentemente.  
+
+
+![pianta piena](schemaStanze.jpg)
 
 
 
