@@ -233,6 +233,6 @@
                          "parent": "areaVisita",
                          "class": "SediaARotelle",
                          "tVector": [2, 2, 0.3],
-                         "rVector": [75, 0, 45]
+                         "rVector": [90, 0, 0]
                      }
               }
