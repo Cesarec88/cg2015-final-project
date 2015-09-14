@@ -181,7 +181,7 @@ Nella suddivisione delle stanze si è cercato di ottenere una struttura che perm
 
 ### Sedia a rotelle
 
-![immagine 17](12.jpg)
+![immagine 17](cesare.jpg)
 
 ### Orologio
 
