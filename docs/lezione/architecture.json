@@ -1,0 +1,2765 @@
+{
+    "id": "architectures",
+    "type": "FeatureCollection",
+    "features": 
+    [
+        {
+            "type": "Feature",
+            "id": "level_0",
+            "geometry": 
+            {
+                "type": "Polygon",
+                "coordinates": 
+                [ 
+                    [ [0, 0], [32, 0], [32, 55], [0, 55] ]
+                ]  
+            },
+            "properties": 
+            {
+                "class": "level",
+                "parent": "building",
+                "description": "Mura perimetrali ",
+                "height": 3.5,
+                "thickness": 0.3,
+                "tVector": [0, 0, 0],
+                "rVector": [0, 0, 0]
+            }
+        },
+
+        {
+              "type": "Feature",
+              "id": "OBI",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [13, 0], [13, 20], [0, 20], [0, 0] ]
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "OBI",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 0]
+              }
+        },
+
+        {
+                      "type": "Feature",
+                      "id": "areaVisita",
+                      "geometry": 
+                      {
+                            "type": "Polygon",
+                            "coordinates": 
+                            [ 
+                               [ [0, 0], [0, 10], [12, 10], [12, 0], [0, 0] ]
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "room",
+                            "parent": "level_0",
+                            "description": "areaVisita",
+                            "tVector": [13, 6, 0],
+                            "rVector": [0, 0, 0]
+                      }
+          },
+
+         {
+                      "type": "Feature",
+                      "id": "OT",
+                      "geometry": 
+                      {
+                            "type": "Polygon",
+                            "coordinates": 
+                            [ 
+                               [ [0, 0], [0, 6], [19, 6], [19, 0], [0, 0] ]
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "room",
+                            "parent": "level_0",
+                            "description": "OT",
+                            "tVector": [13, 0, 0],
+                            "rVector": [0, 0, 0]
+                      }
+        },
+
+        {
+                "type": "Feature",
+                "id": "corridoioNord",
+                "geometry": 
+                {
+                      "type": "Polygon",
+                      "coordinates": 
+                      [ 
+                         [ [0, 0], [3, 0], [3, 24], [0, 24], [0, 0] ]
+                      ]  
+                    
+                },
+                "properties": 
+                {
+                      "class": "room",
+                      "parent": "level_0",
+                      "description": "corridoioNord",
+                      "tVector": [22, 16, 0],
+                      "rVector": [0, 0, 0]
+                }
+        },
+
+
+        {
+                   "type": "Feature",
+                 "id": "corridoioSud",
+                 "geometry": 
+                 {
+                       "type": "Polygon",
+                       "coordinates": 
+                       [ 
+                          [ [0, 0], [3, 0], [3, 24], [0, 24], [0, 0] ]
+                       ]  
+                     
+                 },
+                 "properties": 
+                 {
+                       "class": "room",
+                       "parent": "level_0",
+                       "description": "corridoioSud",
+                       "tVector": [13, 16, 0],
+                       "rVector": [0, 0, 0]
+                 }
+        },
+                      {
+                       "type": "Feature",
+                       "id": "studioChirurgia",
+                       "geometry": 
+                       {
+                             "type": "Polygon",
+                             "coordinates": 
+                             [ 
+                                [ [0, 0], [6, 0], [6, 10], [0, 10], [0, 0] ]
+                             ]                 
+                       },
+                       "properties": 
+                       {
+                             "class": "room",
+                             "parent": "level_0",
+                             "description": "studioChirurgia",
+                             "tVector": [16, 16, 0],
+                             "rVector": [0, 0, 0]
+                       }
+                },
+              {
+                       "type": "Feature",
+                       "id": "studioMedicina",
+                       "geometry": 
+                       {
+                             "type": "Polygon",
+                             "coordinates": 
+                             [ 
+                                [ [0, 0], [6, 0], [6, 10], [0, 10], [0, 0] ]
+                             ]                 
+                       },
+                       "properties": 
+                       {
+                             "class": "room",
+                             "parent": "level_0",
+                             "description": "studioMedicina",
+                             "tVector": [16, 26, 0],
+                             "rVector": [0, 0, 0]
+                       }
+                },
+                    {
+             "type": "Feature",
+             "id": "Holding",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [0, 13], [13, 13], [13, 4], [9,4], [9, 0], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "Holding",
+                   "tVector": [0, 20, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+      {
+               "type": "Feature",
+               "id": "guardiolaHolding",
+               "geometry": 
+               {
+                     "type": "Polygon",
+                     "coordinates": 
+                     [ 
+                        [ [0, 0], [4, 0], [4, 4], [0, 4], [0, 0] ]
+                     ]                 
+               },
+               "properties": 
+               {
+                     "class": "room",
+                     "parent": "level_0",
+                     "description": "guardiolaHolding",
+                     "tVector": [9, 20, 0],
+                     "rVector": [0, 0, 0]
+               }
+        },
+        {
+                "type": "Feature",
+                "id": "pazientiCritici",
+                "geometry": 
+                {
+                      "type": "Polygon",
+                      "coordinates": 
+                      [ 
+                         [ [0, 0], [13, 0], [13, 7], [0, 7], [0, 0] ]
+                      ]                 
+                },
+                "properties": 
+                {
+                      "class": "room",
+                      "parent": "level_0",
+                      "description": "pazientiCritici",
+                      "tVector": [0, 33, 0],
+                      "rVector": [0, 0, 0]
+                }
+    },
+       {   
+          "type": "Feature",
+            "id": "corridoioEmergenza",
+            "geometry": 
+            {
+                  "type": "Polygon",
+                  "coordinates": 
+                  [ 
+                     [ [0, 0], [6, 0], [6, 4], [0, 4], [0, 0] ]
+                  ]                 
+            },
+            "properties": 
+            {
+                  "class": "room",
+                  "parent": "level_0",
+                  "description": "corridoioEmergenza",
+                  "tVector": [16, 36, 0],
+                  "rVector": [0, 0, 0]
+            }
+     },
+       {   
+           "type": "Feature",
+             "id": "radiologia",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [7, 0], [7, 8], [0, 8], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "radiologia",
+                   "tVector": [25, 20, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+         {   
+           "type": "Feature",
+             "id": "sicurezza",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [3, 0], [3, 3], [0, 3], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "sicurezza",
+                   "tVector": [25, 28, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+      {   
+           "type": "Feature",
+             "id": "primaVisita",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [4, 0], [4, 3], [0, 3], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "primaVisita",
+                   "tVector": [28, 28, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+       {   
+           "type": "Feature",
+             "id": "accoglienza",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [7, 0], [7, 9], [0, 9], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "accoglienza",
+                   "tVector": [25, 31, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+ {   
+           "type": "Feature",
+             "id": "studioVisitaPsichiatricainfettiva",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [6 , 0], [6, 12], [0, 12], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "studioVisitaPsichiatricainfettiva",
+                   "tVector": [0, 43, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+        {   
+           "type": "Feature",
+             "id": "accoglienzaPsichiatricoInfettiva",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [26, 0], [26, 6], [20, 6], [20, 7], [15, 7], [15, 3], [11, 3], [11, 6], [7, 6], [3, 6], [3, 8], [0, 8], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "accoglienzaPsichiatricoInfettiva",
+                   "tVector": [6, 43, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+         {   
+           "type": "Feature",
+             "id": "sicurezza2",
+             "geometry": 
+             {
+                   "type": "Polygon",
+                   "coordinates": 
+                   [ 
+                      [ [0, 0], [3, 0], [3, 4], [0, 4], [0, 0] ]
+                   ]                 
+             },
+             "properties": 
+             {
+                   "class": "room",
+                   "parent": "level_0",
+                   "description": "sicurezza2",
+                   "tVector": [6, 51, 0],
+                   "rVector": [0, 0, 0]
+             }
+      },
+ {   
+            "type": "Feature",
+              "id": "areaAmministrativa",
+              "geometry": 
+              {
+                    "type": "Polygon",
+                    "coordinates": 
+                    [ 
+                       [ [0, 0], [4, 0], [4, 6], [0, 6], [0, 0] ]
+                    ]                 
+              },
+              "properties": 
+              {
+                    "class": "room",
+                    "parent": "level_0",
+                    "description": "areaAmministrativa",
+                    "tVector": [9, 49, 0],
+                    "rVector": [0, 0, 0]
+              }
+       },
+   {   
+             "type": "Feature",
+               "id": "endoscopia",
+               "geometry": 
+               {
+                     "type": "Polygon",
+                     "coordinates": 
+                     [ 
+                        [ [0, 0], [4, 0], [4, 6], [0, 6], [0, 0] ]
+                     ]                 
+               },
+               "properties": 
+               {
+                     "class": "room",
+                     "parent": "level_0",
+                     "description": "endoscopia",
+                     "tVector": [13, 49, 0],
+                     "rVector": [0, 0, 0]
+               }
+        },
+               {   
+             "type": "Feature",
+               "id": "toilette",
+               "geometry": 
+               {
+                     "type": "Polygon",
+                     "coordinates": 
+                     [ 
+                        [ [0, 0], [4, 0], [4, 9], [0, 9], [0, 0] ]
+                     ]                 
+               },
+               "properties": 
+               {
+                     "class": "room",
+                     "parent": "level_0",
+                     "description": "toilette",
+                     "tVector": [17, 46, 0],
+                     "rVector": [0, 0, 0]
+               }
+        },
+         {   
+             "type": "Feature",
+               "id": "lavanderia",
+               "geometry": 
+               {
+                     "type": "Polygon",
+                     "coordinates": 
+                     [ 
+                        [ [0, 0], [5, 0], [5, 5], [0, 5], [0, 0] ]
+                     ]                 
+               },
+               "properties": 
+               {
+                     "class": "room",
+                     "parent": "level_0",
+                     "description": "lavanderia",
+                     "tVector": [21, 50, 0],
+                     "rVector": [0, 0, 0]
+               }
+        },
+   {   
+             "type": "Feature",
+               "id": "farmacia",
+               "geometry": 
+               {
+                     "type": "Polygon",
+                     "coordinates": 
+                     [ 
+                        [ [0, 0], [6, 0], [6, 6], [0, 6], [0, 0] ]
+                     ]                 
+               },
+               "properties": 
+               {
+                     "class": "room",
+                     "parent": "level_0",
+                     "description": "farmacia",
+                     "tVector": [26, 49, 0],
+                     "rVector": [0, 0, 0]
+               }
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+              "type": "Feature",
+              "id": "OBI-esternoOvest",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [13, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall OBI-esternoOvest",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["OBI"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "OBI-esternoSud",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [20, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "external_wall",
+                    "parent": "level_0",
+                    "thickness": 0.3,
+                    "description": "wall OBI-esternoSud",
+                    "tVector": [0, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["OBI"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "OBI-OTeAreaVisita",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [20, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.1,
+                    "description": "wall OBI-OTeAreaVisita",
+                    "tVector": [13, 0, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["OBI"]
+              }
+        },
+        {
+              "type": "Feature",
+              "id": "OBI-Holding",
+              "geometry": 
+              {
+                    "type": "LineString",
+                    "coordinates": 
+                    [ 
+                       [0, 0], [13, 0] 
+                    ]  
+                  
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.1,
+                    "description": "wall OBI-Holding1",
+                    "tVector": [0, 20, 0],
+                    "rVector": [0, 0, 0],
+                    "connections": ["OBI"]
+              }
+        },
+
+                {
+                      "type": "Feature",
+                      "id": "portaOBI",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [6, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "door",
+                            "parent": "OBI-OTeAreaVisita",
+                            "thickness": 5,
+                            "description": "portaOBI",
+                            "tVector": [12, 0, 0],
+                            "rVector": [0, 0, 0]
+                      }
+        },
+
+     
+
+                {
+                      "type": "Feature",
+                      "id": "OT-esternoOvest",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [19, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "external_wall",
+                            "parent": "level_0",
+                            "thickness": 0.3,
+                            "description": "wall OT-esternoOvest",
+                            "tVector": [13, 0, 0],
+                            "rVector": [0, 0, 0],
+                            "connections": ["OT"]
+                      }
+        },
+
+                {
+                      "type": "Feature",
+                      "id": "OT-esternoNord",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [6, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "external_wall",
+                            "parent": "level_0",
+                            "thickness": 0.3,
+                            "description": "wall OT-esternoNord",
+                            "tVector": [32, 0, 0],
+                            "rVector": [0, 0, 90],
+                            "connections": ["OT"]
+                      }
+        },
+
+        {
+                      "type": "Feature",
+                      "id": "OT-esternoEst",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [7, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "external_wall",
+                            "parent": "level_0",
+                            "thickness": 0.3,
+                            "description": "wall OT-esternoEst",
+                            "tVector": [25, 6, 0],
+                            "rVector": [0, 0, 0],
+                            "connections": ["OT"]
+                      }
+        },
+
+        {
+                      "type": "Feature",
+                      "id": "OT-areaVisita",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [12, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "internal_wall",
+                            "parent": "level_0",
+                            "thickness": 0.1,
+                            "description": "wall OT-areaVisita",
+                            "tVector": [13, 6, 0],
+                            "rVector": [0, 0, 0],
+                            "connections": ["OT"]
+                      }
+        },
+
+        {
+                      "type": "Feature",
+                      "id": "portaOT1",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [2, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "door",
+                            "parent": "OT-areaVisita",
+                            "thickness": 5,
+                            "description": "porta OT1",
+                            "tVector": [1, 0, 0],
+                            "rVector": [0, 0, 0]
+                      }
+        },
+        
+        {
+                      "type": "Feature",
+                      "id": "portaOT2",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [2, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "door",
+                            "parent": "OT-areaVisita",
+                            "thickness": 5,
+                            "description": "porta OT2",
+                            "tVector": [4, 0, 0],
+                            "rVector": [0, 0, 0]
+                      }
+        },
+        
+        {
+                      "type": "Feature",
+                      "id": "portaOT3",
+                      "geometry": 
+                      {
+                            "type": "LineString",
+                            "coordinates": 
+                            [ 
+                               [0, 0], [2, 0] 
+                            ]  
+                          
+                      },
+                      "properties": 
+                      {
+                            "class": "door",
+                            "parent": "OT-areaVisita",
+                            "thickness": 5,
+                            "description": "porta OT3",
+                            "tVector": [7, 0, 0],
+                            "rVector": [0, 0, 0]
+                      }
+        },
+
+          {
+                  "type": "Feature",
+                 "id": "areaVisita-esternoNord",
+                 "geometry": 
+               {
+                     "type": "LineString",
+                     "coordinates": 
+                     [ 
+                        [0, 0], [10, 0] 
+                     ]  
+                   
+               },
+                     "properties": 
+               {
+                     "class": "external_wall",
+                     "parent": "level_0",
+                     "thickness": 0.3,
+                     "description": "wall areaVisita-esternoNord",
+                     "tVector": [25, 6, 0],
+                     "rVector": [0, 0, 90],
+                     "connections": ["areaVisita"]
+                       }
+                     },
+            {
+                      "type": "Feature",
+                      "id": "studioChirurgia-areaVisita",
+                      "geometry": 
+                        {
+                             "type": "LineString",
+                             "coordinates": 
+                              [ 
+                                 [0, 0], [6, 0] 
+                              ]                    
+                        },
+                        "properties": 
+                        {
+                              "class": "internal_wall",
+                              "parent": "level_0",
+                              "thickness": 0.1,
+                              "description": "wall studioChirurgia-areaVisita",
+                              "tVector": [16, 16, 0],
+                              "rVector": [0, 0, 0],
+                              "connections": ["studioChirurgia"]
+                        }
+             },
+             {
+                   "type": "Feature",
+                   "id": "corridoioNord-esternoNord",
+                   "geometry": 
+                   {
+                         "type": "LineString",
+                         "coordinates": 
+                         [ 
+                            [0, 0], [4, 0] 
+                         ]                   
+                   },
+                   "properties": 
+                   {
+                         "class": "external_wall",
+                         "parent": "level_0",
+                         "thickness": 0.3,
+                         "description": "wall corridoioNord-esternoNord",
+                         "tVector": [25, 16, 0],
+                         "rVector": [0, 0, 90],
+                         "connections": [""]
+                   }
+             },
+       {
+             "type": "Feature",
+             "id": "Holding-esternoSud",
+             "geometry": 
+             {
+                   "type": "LineString",
+                   "coordinates": 
+                   [ 
+                      [0, 0], [13, 0] 
+                   ]                   
+             },
+             "properties": 
+             {
+                   "class": "external_wall",
+                   "parent": "level_0",
+                   "thickness": 0.3,
+                   "description": "wall Holding-esternoSud",
+                   "tVector": [0, 20, 0],
+                   "rVector": [0, 0, 90],
+                   "connections": ["Holding"]
+             }
+       },
+       {
+                 "type": "Feature",
+                 "id": "pazientiCritici-Holding",
+                 "geometry": 
+                   {
+                        "type": "LineString",
+                        "coordinates": 
+                         [ 
+                            [0, 0], [13, 0] 
+                         ]                    
+                   },
+                   "properties": 
+                   {
+                         "class": "internal_wall",
+                         "parent": "level_0",
+                         "thickness": 0.1,
+                         "description": "wall pazientiCritici-Holding",
+                         "tVector": [0, 33, 0],
+                         "rVector": [0, 0, 0],
+                         "connections": ["Holding"]
+                   }
+        },
+{
+          "type": "Feature",
+          "id": "Holding-corridoioSud",
+          "geometry": 
+            {
+                 "type": "LineString",
+                 "coordinates": 
+                  [ 
+                     [0, 0], [9, 0] 
+                  ]                    
+            },
+            "properties": 
+            {
+                  "class": "internal_wall",
+                  "parent": "level_0",
+                  "thickness": 0.1,
+                  "description": "wall Holding-corridoioSud",
+                  "tVector": [13, 24, 0],
+                  "rVector": [0, 0, 90],
+                  "connections": ["Holding"]
+            }
+ },
+ {
+           "type": "Feature",
+           "id": "Holding-guardiolaHolding-Est",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [4, 0] 
+                   ]                    
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall Holding-guardiolaHolding-Est",
+                   "tVector": [9, 24, 0],
+                   "rVector": [0, 0, 0],
+                   "connections": ["Holding"]
+             }
+  }, 
+  {
+           "type": "Feature",
+           "id": "Holding-guardiolaHolding-Sud",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [4, 0] 
+                   ]                    
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall Holding-guardiolaHolding-Sud",
+                   "tVector": [9, 20, 0],
+                   "rVector": [0, 0, 90],
+                   "connections": ["Holding"]
+             }
+  },
+  {
+            "type": "Feature",
+            "id": "guardiolaHolding-corridoioSud",
+            "geometry": 
+              {
+                   "type": "LineString",
+                   "coordinates": 
+                    [ 
+                       [0, 0], [4, 0] 
+                    ]                    
+              },
+              "properties": 
+              {
+                    "class": "internal_wall",
+                    "parent": "level_0",
+                    "thickness": 0.1,
+                    "description": "wall guardiolaHolding-corridoioSud",
+                    "tVector": [13, 20, 0],
+                    "rVector": [0, 0, 90],
+                    "connections": ["guardiolaHolding"]
+              }
+   },
+   {       
+       "type": "Feature",
+        "id": "portaGuardiolaHolding-corridoioSud",
+        "geometry": 
+        {
+              "type": "LineString",
+              "coordinates": 
+              [ 
+                 [0, 0], [1, 0] 
+              ]                   
+        },
+        "properties": 
+        {
+              "class": "door",
+              "parent": "guardiolaHolding-corridoioSud",
+              "thickness": 5,
+              "description": "porta guardiolaHolding-corridoioSud",
+              "tVector": [1, 0, 0],
+              "rVector": [0, 0, 0]
+        }
+   },
+   {       
+       "type": "Feature",
+        "id": "portaHolding-guardiolaHolding",
+        "geometry": 
+        {
+              "type": "LineString",
+              "coordinates": 
+              [ 
+                 [0, 0], [1, 0] 
+              ]                   
+        },
+        "properties": 
+        {
+              "class": "door",
+              "parent": "Holding-guardiolaHolding-Est",
+              "thickness": 5,
+              "description": "portaHolding-guardiolaHolding",
+              "tVector": [1, 0, 0],
+              "rVector": [0, 0, 0]
+        }
+   },
+   {       
+       "type": "Feature",
+        "id": "portaHoldingCorridoioSud",
+        "geometry": 
+        {
+              "type": "LineString",
+              "coordinates": 
+              [ 
+                 [0, 0], [5, 0] 
+              ]                   
+        },
+        "properties": 
+        {
+              "class": "door",
+              "parent": "Holding-corridoioSud",
+              "thickness": 5,
+              "description": "portaHoldingCorridoioSud",
+              "tVector": [2, 0, 0],
+              "rVector": [0, 0, 0]
+        }
+   },
+  
+    {
+        "type": "Feature",
+        "id": "pazientiCritici-esternoSud",
+        "geometry": 
+        {
+              "type": "LineString",
+              "coordinates": 
+              [ 
+                 [0, 0], [7, 0] 
+              ]                   
+        },
+        "properties": 
+        {
+              "class": "external_wall",
+              "parent": "level_0",
+              "thickness": 0.3,
+              "description": "wall pazientiCritici-esternoSud",
+              "tVector": [0, 33, 0],
+              "rVector": [0, 0, 90],
+              "connections": ["pazientiCritici"]
+        }
+    },
+    {
+              "type": "Feature",
+              "id": "pazientiCritici-corridoioSud",
+              "geometry": 
+                {
+                     "type": "LineString",
+                     "coordinates": 
+                      [ 
+                         [0, 0], [7, 0] 
+                      ]                    
+                },
+                "properties": 
+                {
+                      "class": "internal_wall",
+                      "parent": "level_0",
+                      "thickness": 0.1,
+                      "description": "wall pazientiCritici-corridoioSud",
+                      "tVector": [13, 33, 0],
+                      "rVector": [0, 0, 90],
+                      "connections": ["pazientiCritici"]
+                }
+     },
+     {
+         "type": "Feature",
+         "id": "pazientiCritici-esternoEst",
+         "geometry": 
+         {
+               "type": "LineString",
+               "coordinates": 
+               [ 
+                  [0, 0], [13, 0] 
+               ]                   
+         },
+         "properties": 
+         {
+               "class": "external_wall",
+               "parent": "level_0",
+               "thickness": 0.3,
+               "description": "wall pazientiCritici-esternoEst",
+               "tVector": [0, 40, 0],
+               "rVector": [0, 0, 0],
+               "connections": ["pazientiCritici"]
+         }
+     },
+     {       
+         "type": "Feature",
+          "id": "portaPazientiCritici-corridoioSud",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [3, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "door",
+                "parent": "pazientiCritici-corridoioSud",
+                "thickness": 5,
+                "description": "portaPazientiCritici-corridoioSud",
+                "tVector": [3, 0, 0],
+                "rVector": [0, 0, 0]
+          }
+     },
+  
+     {
+         "type": "Feature",
+         "id": "corridoioEmergenza-esternoEst",
+         "geometry": 
+         {
+               "type": "LineString",
+               "coordinates": 
+               [ 
+                  [0, 0], [6, 0] 
+               ]                   
+         },
+         "properties": 
+         {
+               "class": "external_wall",
+               "parent": "level_0",
+               "thickness": 0.3,
+               "description": "wall corridoioEmergenza-esternoEst",
+               "tVector": [16, 40, 0],
+               "rVector": [0, 0, 0],
+               "connections": ["corridoioEmergenza"]
+         }
+     },
+     {
+         "type": "Feature",
+         "id": "corridoioNord-esternoEst",
+         "geometry": 
+         {
+               "type": "LineString",
+               "coordinates": 
+               [ 
+                  [0, 0], [3, 0] 
+               ]                   
+         },
+         "properties": 
+         {
+               "class": "external_wall",
+               "parent": "level_0",
+               "thickness": 0.3,
+               "description": "wall corridoioNord-esternoEst",
+               "tVector": [22, 40, 0],
+               "rVector": [0, 0, 0],
+               "connections": ["corridoioNord"]
+         }
+     },
+     {
+         "type": "Feature",
+         "id": "corridoioSud-esternoEst",
+         "geometry": 
+         {
+               "type": "LineString",
+               "coordinates": 
+               [ 
+                  [0, 0], [3, 0] 
+               ]                   
+         },
+         "properties": 
+         {
+               "class": "external_wall",
+               "parent": "level_0",
+               "thickness": 0.3,
+               "description": "wall corridoioSud-esternoEst",
+               "tVector": [13, 40, 0],
+               "rVector": [0, 0, 0],
+               "connections": ["corridoioSud"]
+         }
+     },
+     {
+        "type": "Feature",
+        "id": "studioChirurgia-corridioNord",
+        "geometry": 
+          {
+               "type": "LineString",
+               "coordinates": 
+                [ 
+                   [0, 0], [10, 0] 
+                ]  
+                
+          },
+          "properties": 
+          {
+                "class": "internal_wall",
+                "parent": "level_0",
+                "thickness": 0.1,
+                "description": "wall studioChirurgia-corridioNord",
+                "tVector": [22, 16, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["studioChirurgia"]
+          }
+     },
+     {
+        "type": "Feature",
+        "id": "studioChirurgia-corridioSud",
+        "geometry": 
+          {
+               "type": "LineString",
+               "coordinates": 
+                [ 
+                   [0, 0], [10, 0] 
+                ]  
+                
+          },
+          "properties": 
+          {
+                "class": "internal_wall",
+                "parent": "level_0",
+                "thickness": 0.1,
+                "description": "wall studioChirurgia-corridioSud",
+                "tVector": [16, 16, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["studioChirurgia"]
+          }
+     },
+     {
+        "type": "Feature",
+        "id": "studioChirurgia-studioMedicina",
+        "geometry": 
+          {
+               "type": "LineString",
+               "coordinates": 
+                [ 
+                   [0, 0], [6, 0] 
+                ]  
+                
+          },
+          "properties": 
+          {
+                "class": "internal_wall",
+                "parent": "level_0",
+                "thickness": 0.1,
+                "description": "wall studioChirurgia-studioMedicina",
+                "tVector": [16, 26, 0],
+                "rVector": [0, 0, 0],
+                "connections": ["studioChirurgia"]
+          }
+     },
+     {
+        "type": "Feature",
+        "id": "studioMedicina-corridoioEmergenza",
+        "geometry": 
+          {
+               "type": "LineString",
+               "coordinates": 
+                [ 
+                   [0, 0], [6, 0] 
+                ]  
+                
+          },
+          "properties": 
+          {
+                "class": "internal_wall",
+                "parent": "level_0",
+                "thickness": 0.1,
+                "description": "wall studioMedicina-corridoioEmergenza",
+                "tVector": [16, 36, 0],
+                "rVector": [0, 0, 0],
+                "connections": ["studioMedicina"]
+          }
+     },
+     {
+        "type": "Feature",
+        "id": "studioMedicina-corridioNord",
+        "geometry": 
+          {
+               "type": "LineString",
+               "coordinates": 
+                [ 
+                   [0, 0], [10, 0] 
+                ]  
+                
+          },
+          "properties": 
+          {
+                "class": "internal_wall",
+                "parent": "level_0",
+                "thickness": 0.1,
+                "description": "wall studioMedicina-corridioNord",
+                "tVector": [22, 26, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["studioMedicina"]
+          }
+     },
+     {
+        "type": "Feature",
+        "id": "studioMedicina-corridioSud",
+        "geometry": 
+          {
+               "type": "LineString",
+               "coordinates": 
+                [ 
+                   [0, 0], [10, 0] 
+                ]  
+                
+          },
+          "properties": 
+          {
+                "class": "internal_wall",
+                "parent": "level_0",
+                "thickness": 0.1,
+                "description": "wall studioMedicina-corridioSud",
+                "tVector": [16, 26, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["studioMedicina"]
+          }
+     },
+      {       
+          "type": "Feature",
+           "id": "portaStudioChirurgia",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [1, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "studioChirurgia-corridioNord",
+                 "thickness": 5,
+                 "description": "portaStudioChirurgia",
+                 "tVector": [2, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+      {       
+          "type": "Feature",
+           "id": "portaStudioMedicina",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [1, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "studioMedicina-corridioNord",
+                 "thickness": 5,
+                 "description": "portaStudioMedicina",
+                 "tVector": [2, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+    
+      {
+          "type": "Feature",
+          "id": "radiologia-esternoNord",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [8, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall radiologia-esternoNord",
+                "tVector": [32, 20, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["radiologia"]
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "radiologia-esternoOvest",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [7, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall radiologia-esternoOvest",
+                "tVector": [25, 20, 0],
+                "rVector": [0, 0, 0],
+                "connections": ["radiologia"]
+          }
+      },
+      {
+         "type": "Feature",
+         "id": "radiologia-corridoioNord",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [8, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall radiologia-corridoioNord",
+                 "tVector": [25, 20, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["radiologia"]
+           }
+      },
+      {       
+          "type": "Feature",
+           "id": "portaRadiologia",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [2, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "radiologia-corridoioNord",
+                 "thickness": 5,
+                 "description": "portaRadiologia",
+                 "tVector": [1, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+   
+      {
+         "type": "Feature",
+         "id": "radiologia-sicurezza",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [3, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall radiologia-sicurezza",
+                 "tVector": [25, 28, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["sicurezza"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "sicurezza-accoglienza",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [3, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall sicurezza-accoglienza",
+                 "tVector": [25, 31, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["sicurezza"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "sicurezza-corridoioNord",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [3, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall sicurezza-corridoioNord",
+                 "tVector": [25, 28, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["sicurezza"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "sicurezza-primaVisita",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [3, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall sicurezza-primaVisita",
+                 "tVector": [28, 28, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["sicurezza"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "radiologia-primaVisita",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [4, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall radiologia-primaVisita",
+                 "tVector": [28, 28, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["primaVisita"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "accoglienza-primaVisita",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [4, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall accoglienza-primaVisita",
+                 "tVector": [28, 31, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["primaVisita"]
+           }
+      },
+      {
+          "type": "Feature",
+          "id": "primaVisita-esternoNord",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [3, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall primaVisita-esternoNord",
+                "tVector": [32, 28, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["primaVisita"]
+          }
+      },
+     
+      {
+         "type": "Feature",
+         "id": "accoglienza-corridoioNord",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [5, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall accoglienza-corridoioNord",
+                 "tVector": [25, 31, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["accoglienza"]
+           }
+      },
+      {       
+          "type": "Feature",
+           "id": "portaAccoglienza-corridoioNord",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [1.5, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "accoglienza-corridoioNord",
+                 "thickness": 5,
+                 "description": "portaAccoglienza-corridoioNord",
+                 "tVector": [1, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "accoglienza-corridoioEmergenza",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [4, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall accoglienza-corridoioEmergenza",
+                 "tVector": [25, 36, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["accoglienza"]
+           }
+      },
+      {       
+          "type": "Feature",
+           "id": "portaAccoglienza-corridoioEmergenza",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [3, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "accoglienza-corridoioEmergenza",
+                 "thickness": 5,
+                 "description": "portaAccoglienza-corridoioEmergenza",
+                 "tVector": [0, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+      {
+          "type": "Feature",
+          "id": "accogliena-esternoNord",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [9, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall accogliena-esternoNord",
+                "tVector": [32, 31, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["accoglienza"]
+          }
+      },
+     {       
+         "type": "Feature",
+          "id": "portaAccoglienza-corridoioEsterno",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [2, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "door",
+                "parent": "accogliena-esternoNord",
+                "thickness": 5,
+                "description": "portaAccoglienza-corridoioEsterno",
+                "tVector": [6, 0, 0],
+                "rVector": [0, 0, 0]
+          }
+     },
+     {
+         "type": "Feature",
+         "id": "accogliena-esternoEst",
+         "geometry": 
+         {
+               "type": "LineString",
+               "coordinates": 
+               [ 
+                  [0, 0], [7, 0] 
+               ]                   
+         },
+         "properties": 
+         {
+               "class": "external_wall",
+               "parent": "level_0",
+               "thickness": 0.3,
+               "description": "wall accogliena-esternoEst",
+               "tVector": [25, 40, 0],
+               "rVector": [0, 0, 0],
+               "connections": ["accoglienza"]
+         }
+     },
+      {       
+          "type": "Feature",
+           "id": "portaAccoglienza-sicurezza",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [1, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "sicurezza-accoglienza",
+                 "thickness": 5,
+                 "description": "portaAccoglienza-sicurezza",
+                 "tVector": [1, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+      {       
+          "type": "Feature",
+           "id": "portaAccoglienza-primaVisita",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [1, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "accoglienza-primaVisita",
+                 "thickness": 5,
+                 "description": "portaAccoglienza-primaVisita",
+                 "tVector": [0, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+     
+      {
+          "type": "Feature",
+          "id": "studioVisitaPsichiatricainfettiva-esternoWest",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [6, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall studioVisitaPsichiatricainfettiva-esternoWest",
+                "tVector": [0, 43, 0],
+                "rVector": [0, 0, 0],
+                "connections": ["studioVisitaPsichiatricainfettiva"]
+          }
+      },
+      {
+          "type": "Feature",
+          "id": "studioVisitaPsichiatricainfettiva-esternoEst",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [6, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall studioVisitaPsichiatricainfettiva-esternoEst",
+                "tVector": [0, 55, 0],
+                "rVector": [0, 0, 0],
+                "connections": ["studioVisitaPsichiatricainfettiva"]
+          }
+      },
+
+      {
+          "type": "Feature",
+          "id": "studioVisitaPsichiatricainfettiva-esternoSud",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [12, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall studioVisitaPsichiatricainfettiva-esternoSud",
+                "tVector": [0, 43, 0],
+                "rVector": [0, 0, 90],
+                "connections": ["studioVisitaPsichiatricainfettiva"]
+          }
+      },
+      {
+         "type": "Feature",
+         "id": "studioVisitaPsichiatricainfettiva-accoglienzaPsichiatricoInfettiva",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [8, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall studioVisitaPsichiatricainfettiva-accoglienzaPsichiatricoInfettiva",
+                 "tVector": [6, 43, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["studioVisitaPsichiatricainfettiva"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "studioVisitaPsichiatricainfettiva-sicurezza",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [4, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall studioVisitaPsichiatricainfettiva-sicurezza",
+                 "tVector": [6, 51, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["studioVisitaPsichiatricainfettiva"]
+           }
+      },
+      {       
+          "type": "Feature",
+           "id": "portaStudioVisitaPsichiatricainfettiva-accoglienzaPsichiatricoInfettiva",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [2, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "door",
+                 "parent": "studioVisitaPsichiatricainfettiva-accoglienzaPsichiatricoInfettiva",
+                 "thickness": 5,
+                 "description": "portaStudioVisitaPsichiatricainfettiva-accoglienzaPsichiatricoInfettiva",
+                 "tVector": [2, 0, 0],
+                 "rVector": [0, 0, 0]
+           }
+      },
+    
+      {
+          "type": "Feature",
+          "id": "accoglienzaPsichiatricoInfettiva-esternoOvest",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [26, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall accoglienzaPsichiatricoInfettiva-esternoOvest",
+                "tVector": [6, 43, 0],
+                "rVector": [0, 0, 0],
+                "connections": ["accoglienzaPsichiatricoInfettiva"]
+          }
+      },
+   
+      {
+          "type": "Feature",
+          "id": "sicurezza2-esternoEst",
+          "geometry": 
+          {
+                "type": "LineString",
+                "coordinates": 
+                [ 
+                   [0, 0], [3, 0] 
+                ]                   
+          },
+          "properties": 
+          {
+                "class": "external_wall",
+                "parent": "level_0",
+                "thickness": 0.3,
+                "description": "wall sicurezza2-esternoEst",
+                "tVector": [6, 55, 0],
+                "rVector": [0, 0, 0],
+                "connections": ["sicurezza2"]
+          }
+      },
+      {
+         "type": "Feature",
+         "id": "sicurezza2-accoglienzaPsichiatricoInfettiva",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [3, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall sicurezza2-accoglienzaPsichiatricoInfettiva",
+                 "tVector": [6, 51, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["sicurezza2"]
+           }
+      },
+       {       
+           "type": "Feature",
+            "id": "portaSicurezza2-accoglienzaPsichiatricoInfettiva",
+            "geometry": 
+            {
+                  "type": "LineString",
+                  "coordinates": 
+                  [ 
+                     [0, 0], [1, 0] 
+                  ]                   
+            },
+            "properties": 
+            {
+                  "class": "door",
+                  "parent": "sicurezza2-accoglienzaPsichiatricoInfettiva",
+                  "thickness": 5,
+                  "description": "portaSicurezza2-accoglienzaPsichiatricoInfettiva",
+                  "tVector": [1, 0, 0],
+                  "rVector": [0, 0, 0]
+            }
+       },
+      
+       {
+           "type": "Feature",
+           "id": "areaAmministrativa-esternoEst",
+           "geometry": 
+           {
+                 "type": "LineString",
+                 "coordinates": 
+                 [ 
+                    [0, 0], [4, 0] 
+                 ]                   
+           },
+           "properties": 
+           {
+                 "class": "external_wall",
+                 "parent": "level_0",
+                 "thickness": 0.3,
+                 "description": "wall areaAmministrativa-esternoEst",
+                 "tVector": [9, 55, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["areaAmministrativa"]
+           }
+       },
+       {
+          "type": "Feature",
+          "id": "areaAmministrativa-sicurezza2",
+          "geometry": 
+            {
+                 "type": "LineString",
+                 "coordinates": 
+                  [ 
+                     [0, 0], [6, 0] 
+                  ]  
+                  
+            },
+            "properties": 
+            {
+                  "class": "internal_wall",
+                  "parent": "level_0",
+                  "thickness": 0.1,
+                  "description": "wall areaAmministrativa-sicurezza2",
+                  "tVector": [9, 49, 0],
+                  "rVector": [0, 0, 90],
+                  "connections": ["areaAmministrativa"]
+            }
+       },
+       {
+          "type": "Feature",
+          "id": "areaAmministrativa-endoscopia",
+          "geometry": 
+            {
+                 "type": "LineString",
+                 "coordinates": 
+                  [ 
+                     [0, 0], [6, 0] 
+                  ]  
+                  
+            },
+            "properties": 
+            {
+                  "class": "internal_wall",
+                  "parent": "level_0",
+                  "thickness": 0.1,
+                  "description": "wall areaAmministrativa-endoscopia",
+                  "tVector": [13, 49, 0],
+                  "rVector": [0, 0, 90],
+                  "connections": ["areaAmministrativa"]
+            }
+       },
+       {
+          "type": "Feature",
+          "id": "areaAmministrativa-accoglienzaPsichiatricoInfettiva",
+          "geometry": 
+            {
+                 "type": "LineString",
+                 "coordinates": 
+                  [ 
+                     [0, 0], [4, 0] 
+                  ]  
+                  
+            },
+            "properties": 
+            {
+                  "class": "internal_wall",
+                  "parent": "level_0",
+                  "thickness": 0.1,
+                  "description": "wall areaAmministrativa-accoglienzaPsichiatricoInfettiva",
+                  "tVector": [9, 49, 0],
+                  "rVector": [0, 0, 0],
+                  "connections": ["areaAmministrativa"]
+            }
+       },
+        {       
+            "type": "Feature",
+             "id": "portaAreaAmministrativa-accoglienzaPsichiatricoInfettiva",
+             "geometry": 
+             {
+                   "type": "LineString",
+                   "coordinates": 
+                   [ 
+                      [0, 0], [1, 0] 
+                   ]                   
+             },
+             "properties": 
+             {
+                   "class": "door",
+                   "parent": "areaAmministrativa-accoglienzaPsichiatricoInfettiva",
+                   "thickness": 5,
+                   "description": "portaAreaAmministrativa-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [2, 0, 0],
+                   "rVector": [0, 0, 0]
+             }
+        },
+     
+        {
+            "type": "Feature",
+            "id": "endoscopia-esternoEst",
+            "geometry": 
+            {
+                  "type": "LineString",
+                  "coordinates": 
+                  [ 
+                     [0, 0], [4, 0] 
+                  ]                   
+            },
+            "properties": 
+            {
+                  "class": "external_wall",
+                  "parent": "level_0",
+                  "thickness": 0.3,
+                  "description": "wall endoscopia-esternoEst",
+                  "tVector": [13, 55, 0],
+                  "rVector": [0, 0, 0],
+                  "connections": ["endoscopia"]
+            }
+        },
+        {
+           "type": "Feature",
+           "id": "endoscopia-accoglienzaPsichiatricoInfettiva",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [4, 0] 
+                   ]  
+                   
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall endoscopia-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [13, 49, 0],
+                   "rVector": [0, 0, 0],
+                   "connections": ["endoscopia"]
+             }
+        },
+        {       
+            "type": "Feature",
+             "id": "portaEndoscopia-accoglienzaPsichiatricoInfettiva",
+             "geometry": 
+             {
+                   "type": "LineString",
+                   "coordinates": 
+                   [ 
+                      [0, 0], [1, 0] 
+                   ]                   
+             },
+             "properties": 
+             {
+                   "class": "door",
+                   "parent": "endoscopia-accoglienzaPsichiatricoInfettiva",
+                   "thickness": 5,
+                   "description": "portaEndoscopia-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [2, 0, 0],
+                   "rVector": [0, 0, 0]
+             }
+        },
+
+        {
+           "type": "Feature",
+           "id": "endoscopia-toilette",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [9, 0] 
+                   ]  
+                   
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall endoscopia-toilette",
+                   "tVector": [17, 46, 0],
+                   "rVector": [0, 0, 90],
+                   "connections": ["toilette"]
+             }
+        },
+        {
+           "type": "Feature",
+           "id": "toilette-lavanderia",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [9, 0] 
+                   ]  
+                   
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall endoscopia-lavanderia",
+                   "tVector": [21, 46, 0],
+                   "rVector": [0, 0, 90],
+                   "connections": ["toilette"]
+             }
+        },
+        {
+            "type": "Feature",
+            "id": "toilette-esternoEst",
+            "geometry": 
+            {
+                  "type": "LineString",
+                  "coordinates": 
+                  [ 
+                     [0, 0], [4, 0] 
+                  ]                   
+            },
+            "properties": 
+            {
+                  "class": "external_wall",
+                  "parent": "level_0",
+                  "thickness": 0.3,
+                  "description": "wall toilette-esternoEst",
+                  "tVector": [17, 55, 0],
+                  "rVector": [0, 0, 0],
+                  "connections": ["toilette"]
+            }
+        },
+        {
+           "type": "Feature",
+           "id": "toilette-accoglienzaPsichiatricoInfettiva",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [4, 0] 
+                   ]  
+                   
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall toilette-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [17, 46, 0],
+                   "rVector": [0, 0, 0],
+                   "connections": ["toilette"]
+             }
+        },
+        {       
+            "type": "Feature",
+             "id": "portaToilette-accoglienzaPsichiatricoInfettiva",
+             "geometry": 
+             {
+                   "type": "LineString",
+                   "coordinates": 
+                   [ 
+                      [0, 0], [1, 0] 
+                   ]                   
+             },
+             "properties": 
+             {
+                   "class": "door",
+                   "parent": "toilette-accoglienzaPsichiatricoInfettiva",
+                   "thickness": 5,
+                   "description": "portaToilette-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [1, 0, 0],
+                   "rVector": [0, 0, 0]
+             }
+        },
+       
+        {
+            "type": "Feature",
+            "id": "lavanderia-esternoEst",
+            "geometry": 
+            {
+                  "type": "LineString",
+                  "coordinates": 
+                  [ 
+                     [0, 0], [5, 0] 
+                  ]                   
+            },
+            "properties": 
+            {
+                  "class": "external_wall",
+                  "parent": "level_0",
+                  "thickness": 0.3,
+                  "description": "wall lavanderia-esternoEst",
+                  "tVector": [21, 55, 0],
+                  "rVector": [0, 0, 0],
+                  "connections": ["lavanderia"]
+            }
+        },
+        {
+           "type": "Feature",
+           "id": "lavanderia-accoglienzaPsichiatricoInfettiva",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [5, 0] 
+                   ]  
+                   
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall lavanderia-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [21, 50, 0],
+                   "rVector": [0, 0, 0],
+                   "connections": ["lavanderia"]
+             }
+        },
+        {       
+            "type": "Feature",
+             "id": "portaLavanderia-accoglienzaPsichiatricoInfettiva",
+             "geometry": 
+             {
+                   "type": "LineString",
+                   "coordinates": 
+                   [ 
+                      [0, 0], [1, 0] 
+                   ]                   
+             },
+             "properties": 
+             {
+                   "class": "door",
+                   "parent": "lavanderia-accoglienzaPsichiatricoInfettiva",
+                   "thickness": 5,
+                   "description": "portaLavanderia-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [2, 0, 0],
+                   "rVector": [0, 0, 0]
+             }
+        },
+     
+        {
+            "type": "Feature",
+            "id": "farmacia-esternoEst",
+            "geometry": 
+            {
+                  "type": "LineString",
+                  "coordinates": 
+                  [ 
+                     [0, 0], [6, 0] 
+                  ]                   
+            },
+            "properties": 
+            {
+                  "class": "external_wall",
+                  "parent": "level_0",
+                  "thickness": 0.3,
+                  "description": "wall farmacia-esternoEst",
+                  "tVector": [26, 55, 0],
+                  "rVector": [0, 0, 0],
+                  "connections": ["farmacia"]
+            }
+        },
+        {
+           "type": "Feature",
+           "id": "farmacia-lavanderia",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [6, 0] 
+                   ]  
+                   
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall farmacia-lavanderia",
+                   "tVector": [26, 49, 0],
+                   "rVector": [0, 0, 90],
+                   "connections": ["farmacia"]
+             }
+        },
+        {
+           "type": "Feature",
+           "id": "farmacia-accoglienzaPsichiatricoInfettiva",
+           "geometry": 
+             {
+                  "type": "LineString",
+                  "coordinates": 
+                   [ 
+                      [0, 0], [6, 0] 
+                   ]  
+                   
+             },
+             "properties": 
+             {
+                   "class": "internal_wall",
+                   "parent": "level_0",
+                   "thickness": 0.1,
+                   "description": "wall farmacia-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [26, 49, 0],
+                   "rVector": [0, 0, 0],
+                   "connections": ["farmacia"]
+             }
+        },
+        {       
+            "type": "Feature",
+             "id": "portaFarmacia-accoglienzaPsichiatricoInfettiva",
+             "geometry": 
+             {
+                   "type": "LineString",
+                   "coordinates": 
+                   [ 
+                      [0, 0], [1, 0] 
+                   ]                   
+             },
+             "properties": 
+             {
+                   "class": "door",
+                   "parent": "farmacia-accoglienzaPsichiatricoInfettiva",
+                   "thickness": 5,
+                   "description": "portaFarmacia-accoglienzaPsichiatricoInfettiva",
+                   "tVector": [3, 0, 0],
+                   "rVector": [0, 0, 0]
+             }
+        },
+        {
+            "type": "Feature",
+            "id": "farmacia-esternoNord",
+            "geometry": 
+            {
+                  "type": "LineString",
+                  "coordinates": 
+                  [ 
+                     [0, 0], [6, 0] 
+                  ]                   
+            },
+            "properties": 
+            {
+                  "class": "external_wall",
+                  "parent": "level_0",
+                  "thickness": 0.3,
+                  "description": "wall farmacia-esternoNord",
+                  "tVector": [32, 49, 0],
+                  "rVector": [0, 0, 90],
+                  "connections": ["farmacia"]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "accoglienzaPsichiatricoInfettiva-esternoNord",
+            "geometry": 
+            {
+                  "type": "LineString",
+                  "coordinates": 
+                  [ 
+                     [0, 0], [6, 0] 
+                  ]                   
+            },
+            "properties": 
+            {
+                  "class": "external_wall",
+                  "parent": "level_0",
+                  "thickness": 0.3,
+                  "description": "wall accoglienzaPsichiatricoInfettiva-esternoNord",
+                  "tVector": [32, 43, 0],
+                  "rVector": [0, 0, 90],
+                  "connections": ["accoglienzaPsichiatricoInfettiva"]
+            }
+        },
+        {       
+            "type": "Feature",
+             "id": "portaAccoglienzaPsichiatricoInfettiva",
+             "geometry": 
+             {
+                   "type": "LineString",
+                   "coordinates": 
+                   [ 
+                      [0, 0], [2, 0] 
+                   ]                   
+             },
+             "properties": 
+             {
+                   "class": "door",
+                   "parent": "accoglienzaPsichiatricoInfettiva-esternoOvest",
+                   "thickness": 5,
+                   "description": "portaAccoglienzaPsichiatricoInfettiva",
+                   "tVector": [22, 0, 0],
+                   "rVector": [0, 0, 0]
+             }
+        },
+        {
+         "type": "Feature",
+         "id": "accoglienza-corridoioEmergenza",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [6, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "divisoreRadioDiagnostica",
+                 "tVector": [28, 20, 0],
+                 "rVector": [0, 0, 90],
+                 "connections": ["radiologia"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "muro bagno1",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [1.55, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.05,
+                 "description": "wall bagno1",
+                 "tVector": [19.5, 47.6, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["toilette"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "muro bagno2",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [1.55, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.05,
+                 "description": "wall bagno2",
+                 "tVector": [19.5, 48.8, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["toilette"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "muro bagno3",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [1.55, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.05,
+                 "description": "wall bagno2",
+                 "tVector": [19.5, 50, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["toilette"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "muro bagno3",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [1.55, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.05,
+                 "description": "wall bagno3",
+                 "tVector": [19.5, 51.2, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["toilette"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "bagno4",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [1.55, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall bagno4",
+                 "tVector": [19.5, 52.4, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["toilette"]
+           }
+      },
+      {
+         "type": "Feature",
+         "id": "bagno4",
+         "geometry": 
+           {
+                "type": "LineString",
+                "coordinates": 
+                 [ 
+                    [0, 0], [1.55, 0] 
+                 ]  
+                 
+           },
+           "properties": 
+           {
+                 "class": "internal_wall",
+                 "parent": "level_0",
+                 "thickness": 0.1,
+                 "description": "wall bagno4",
+                 "tVector": [19.5, 53.6, 0],
+                 "rVector": [0, 0, 0],
+                 "connections": ["toilette"]
+           }
+      }
+
+
+       
+
+
+        
+        
+
+       
+      
+      
+      
+      
+
+     
+   
+                        
+        
+
+    ]
+}
